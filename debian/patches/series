@@ -1,0 +1,3 @@
+01_build_doc.patch
+02-Make-valgrind-optional.patch
+03-Kill-bogus-TYPE_BLOB-marker-type.patch
