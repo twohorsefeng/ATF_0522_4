@@ -451,6 +451,7 @@ TF_LDFLAGS		+=	--gc-sections
 # therefore don't add those in that case
 ifeq ($(findstring ld.lld,$(notdir $(LD))),)
 TF_LDFLAGS		+=	$(TF_LDFLAGS_$(ARCH))
+TF_LDFLAGS      +=  --no-warn-rwx-segment
 endif
 endif
 
